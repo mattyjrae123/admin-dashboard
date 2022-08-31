@@ -46,6 +46,20 @@ body {
   border: 1px solid black;
 }
 
+#project-display {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 4.5fr 4.5fr;
+}
+
+#project-display > div {
+  border: 1px solid black;
+}
+
+#project-title {
+  grid-column: 1 / 4;
+}
+
 #sidebar {
   background-color: darkkhaki;
   grid-column: 1 / 2;
