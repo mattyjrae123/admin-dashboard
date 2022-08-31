@@ -22,6 +22,10 @@ body {
   background-color: aquamarine;
   grid-column: 2 / 3;
   grid-row: 1 / 2;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 3fr 6fr;
 }
 
 #main-content {
@@ -43,4 +47,8 @@ body {
 
 #sidebar > div {
   border: 1px solid black;
+}
+
+#header > div {
+  border: 1px solid black
 }
