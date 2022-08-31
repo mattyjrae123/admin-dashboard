@@ -8,3 +8,15 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+#header {
+  background-color: aquamarine;
+}
+
+#main {
+  background-color: saddlebrown;
+}
+
+#sidebar {
+  background-color: darkkhaki;
+}
