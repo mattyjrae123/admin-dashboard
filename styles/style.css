@@ -1,6 +1,10 @@
 /* CSS Meyer Reset */
 @import url(meyer-reset.css);
 
-h1 {
-  color: green;
+/* BOX-SIZING RESET */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
