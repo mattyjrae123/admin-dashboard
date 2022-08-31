@@ -9,14 +9,29 @@ html {
   box-sizing: inherit;
 }
 
-#header {
-  background-color: aquamarine;
+body {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 5fr;
+
+  width: 100vw;
+  height: 100vh;
 }
 
-#main {
-  background-color: saddlebrown;
+#header {
+  background-color: aquamarine;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+#main-content {
+  background-color: brown;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
 }
 
 #sidebar {
   background-color: darkkhaki;
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
 }
