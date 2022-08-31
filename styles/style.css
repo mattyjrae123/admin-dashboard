@@ -28,10 +28,22 @@ body {
   grid-template-rows: 3fr 6fr;
 }
 
+#header > div {
+  border: 1px solid black
+}
+
 #main-content {
   background-color: brown;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+#main-content > div {
+  border: 1px solid black;
 }
 
 #sidebar {
@@ -47,8 +59,4 @@ body {
 
 #sidebar > div {
   border: 1px solid black;
-}
-
-#header > div {
-  border: 1px solid black
 }
