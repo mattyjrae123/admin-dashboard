@@ -126,3 +126,9 @@ h1 {
 
   margin-top: 10px;
 }
+
+#trending-container > div > img {
+  width: 50px;
+  background-color: cornflowerblue;
+  border-radius: 25px;
+}
