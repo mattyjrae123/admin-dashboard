@@ -106,6 +106,8 @@ h1 {
 }
 
 #sidebar li>a {
+  color: white;
+  text-decoration: none;
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
