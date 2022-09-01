@@ -23,6 +23,9 @@ body {
   height: 100vh;
 }
 
+
+
+/* HEADER */
 #header {
   background-color: aquamarine;
   grid-column: 2 / 3;
@@ -35,7 +38,11 @@ body {
   padding: 10px 20px;
 }
 
-#title {
+#header > div {
+  border: 1px solid black
+}
+
+#title-container {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 5px;
@@ -46,10 +53,9 @@ h1 {
   font-size: 28px;
 }
 
-#header > div {
-  border: 1px solid black
-}
 
+
+/* MAIN-CONTENT */
 #main-content {
   background-color: brown;
   grid-column: 2 / 3;
@@ -93,6 +99,9 @@ h1 {
   grid-column: 1 / 3;
 }
 
+
+
+/* SIDEBAR */
 #sidebar {
   background-color: darkkhaki;
   grid-column: 1 / 2;
