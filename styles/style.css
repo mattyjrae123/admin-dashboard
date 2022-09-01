@@ -109,6 +109,8 @@ h1 {
 /* profile image */
 #header > div:nth-child(2) > img:nth-child(2) {
   width: 50px;
+  background-color: firebrick;
+  border-radius: 25px;
 }
 
 
