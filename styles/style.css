@@ -101,7 +101,7 @@ h1 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto auto  1fr;
-  gap: 70px;
+  gap: 50px;
   padding: 10px 20px;
 }
 
