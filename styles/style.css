@@ -26,6 +26,8 @@ body {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 3fr 6fr;
+  gap: 20px;
+  padding: 10px 20px;
 }
 
 #header > div {
@@ -40,6 +42,7 @@ body {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr;
+  gap: 20px;
 }
 
 #main-content > div {
@@ -50,6 +53,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 3fr 3fr 3fr;
+  gap: 20px;
+  margin: 20px 0 20px 20px;
 }
 
 #project-display > div {
@@ -69,6 +74,7 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: 70px auto auto auto;
   gap: 70px;
+  padding: 10px 20px;
 }
 
 #sidebar > div {
