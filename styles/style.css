@@ -68,7 +68,7 @@ h1 {
 }
 
 #header > div:first-of-type > button > img {
-  height: 28px;
+  width: 28px;
 }
 
 #header > div:first-of-type > input {
@@ -95,9 +95,20 @@ h1 {
 /* Header: User/Notification button section */
 #header > div:nth-child(2) {
   display: grid;
-  grid-template-columns: auto auto 1fr;
+  grid-template-columns: auto auto auto 1fr;
   align-items: center;
-  justify-items: end;
+  gap: 40px;
+  padding-left: 15px;
+}
+
+/* notification bell */
+#header > div:nth-child(2) > img:nth-child(1) {
+  width: 28px;
+}
+
+/* profile image */
+#header > div:nth-child(2) > img:nth-child(2) {
+  width: 50px;
 }
 
 
@@ -148,33 +159,6 @@ h1 {
   grid-column: 1 / 3;
 }
 
-
-
-/* SIDEBAR */
-#sidebar {
-  background-color: darkkhaki;
-  grid-column: 1 / 2;
-  grid-row: 1 / 3;
-
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto 1fr;
-  gap: 50px;
-  padding: 10px 20px;
-  color: white;
-}
-
-#sidebar li>a {
-  color: white;
-  text-decoration: none;
-  display: grid;
-  grid-template-columns: auto 1fr;
-  align-items: center;
-  gap: 10px;
-
-  margin-top: 10px;
-}
-
 #trending-container {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -206,4 +190,31 @@ h1 {
 
 #trending-container > div > span {
   align-self: start;
+}
+
+
+
+/* SIDEBAR */
+#sidebar {
+  background-color: darkkhaki;
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto 1fr;
+  gap: 50px;
+  padding: 10px 20px;
+  color: white;
+}
+
+#sidebar li>a {
+  color: white;
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 10px;
+
+  margin-top: 10px;
 }
