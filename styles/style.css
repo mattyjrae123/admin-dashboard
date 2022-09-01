@@ -57,6 +57,11 @@ h1 {
   font-size: 28px;
 }
 
+#header > div:first-of-type {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
 
 
 /* MAIN-CONTENT */
