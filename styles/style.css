@@ -57,6 +57,7 @@ h1 {
   font-size: 28px;
 }
 
+/* Search box */
 #header > div:first-of-type {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -65,6 +66,12 @@ h1 {
 #header > div:first-of-type > button {
   background: none;
   border: none;
+}
+
+#header > div:first-of-type > input {
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(220, 220, 220);
 }
 
 
