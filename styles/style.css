@@ -23,6 +23,10 @@ body {
   height: 100vh;
 }
 
+.section-title {
+  font-size: 18px;
+  font-weight: 700;
+}
 
 
 /* HEADER */
