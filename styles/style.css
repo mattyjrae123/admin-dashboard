@@ -34,6 +34,15 @@ body {
   padding: 10px 20px;
 }
 
+#title {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+  font-size: 32px;
+}
+
 #header > div {
   border: 1px solid black
 }
