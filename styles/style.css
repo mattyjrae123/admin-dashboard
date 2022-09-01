@@ -104,6 +104,11 @@ h1 {
   padding: 10px 20px;
 }
 
-#sidebar > div {
-  border: 1px solid black;
+#sidebar li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 10px;
+
+  margin-top: 10px;
 }
