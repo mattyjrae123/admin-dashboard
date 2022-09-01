@@ -37,7 +37,7 @@ body {
 
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-template-rows: 3fr 6fr;
+  grid-template-rows: 1fr 2fr;
   gap: 20px;
   padding: 10px 20px;
 }
@@ -66,6 +66,10 @@ h1 {
 #header > div:first-of-type > button {
   background: none;
   border: none;
+}
+
+#header > div:first-of-type > button > img {
+  height: 28px;
 }
 
 #header > div:first-of-type > input {
