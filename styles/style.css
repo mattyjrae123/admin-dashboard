@@ -86,6 +86,13 @@ h1 {
   justify-items: center;
 }
 
+#header > div:nth-child(4) > button {
+  border: none;
+  border-radius: 100px;
+  width: 75%;
+  height: 60%;
+}
+
 
 
 /* MAIN-CONTENT */
