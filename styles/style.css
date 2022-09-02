@@ -213,6 +213,23 @@ h1 {
   grid-column: 1 / 3;
 }
 
+#announcements-container {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+#announcements-container > hr {
+  border: 1px solid black;
+  height: 1px;
+  width: 90%;
+}
+
+.announcement > div:first-of-type {
+  font-weight: 700;
+  font-size: 18px;
+}
+
 #trending-container {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
