@@ -175,6 +175,8 @@ h1 {
   display: grid;
   grid-template-rows: auto auto 1fr;
   border: 1px solid black;
+  gap: 5px;
+  padding: 30px 20px;
 }
 
 .project-tile button {
@@ -184,6 +186,19 @@ h1 {
 
 .project-tile img {
   width: 24px;
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.project-button-container {
+  align-self: end;
+  justify-self: end;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
 }
 
 #project-side-panel {
