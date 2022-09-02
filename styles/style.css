@@ -171,6 +171,15 @@ h1 {
   margin: 20px 0 20px 20px;
 }
 
+.project-tile button {
+  background: none;
+  border: none;
+}
+
+.project-tile img {
+  width: 24px;
+}
+
 #project-side-panel {
   display: grid;
   grid-template-columns: 1fr;
@@ -179,7 +188,7 @@ h1 {
   margin: 20px 20px 20px 0;
 }
 
-#project-title {
+#project-section-title {
   grid-column: 1 / 3;
 }
 
