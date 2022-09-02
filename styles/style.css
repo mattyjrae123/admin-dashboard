@@ -279,6 +279,12 @@ h1 {
 
 #trending-container > div > a {
   align-self: end;
+  color: var(--main-colour);
+  text-decoration: none;
+}
+
+#trending-container > div > a:hover {
+  text-decoration: underline;
 }
 
 #trending-container > div > span {
