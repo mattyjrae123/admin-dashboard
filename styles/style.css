@@ -243,9 +243,9 @@ h1 {
 }
 
 #announcements-container > hr {
-  border: 1px solid black;
+  border: 1px solid var(--light-colour);
   height: 1px;
-  width: 90%;
+  width: 100%;
 }
 
 .announcement > div:first-of-type {
