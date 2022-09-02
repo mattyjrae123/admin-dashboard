@@ -255,8 +255,7 @@ h1 {
 
 #trending-container {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  padding: 15px;
+  gap: 10px;
 }
 
 #trending-container > div {
