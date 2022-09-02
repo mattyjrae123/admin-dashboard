@@ -174,7 +174,7 @@ h1 {
 
 
 /* MAIN-CONTENT */
-#main-content {
+#main-content-container {
   padding: 15px 0;
   background-color: var(--light-colour);
   grid-column: 2 / 3;
