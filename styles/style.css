@@ -30,6 +30,15 @@ body {
   font-weight: 700;
 }
 
+.profile-link {
+  text-decoration: none;
+  color: var(--main-colour);
+}
+
+.profile-link:hover {
+  text-decoration: underline;
+}
+
 
 
 /* HEADER */
@@ -129,15 +138,6 @@ body {
   background-color: firebrick;
   border-radius: 40px;
   margin-left: 15px;
-}
-
-#header > div:nth-child(3) > span > a {
-  text-decoration: none;
-  color: var(--main-colour);
-}
-
-#header > div:nth-child(3) > span > a:hover {
-  text-decoration: underline;
 }
 
 /* Header: Button section */
@@ -289,12 +289,6 @@ h1 {
 
 #trending-container > div > a {
   align-self: end;
-  color: var(--main-colour);
-  text-decoration: none;
-}
-
-#trending-container > div > a:hover {
-  text-decoration: underline;
 }
 
 #trending-container > div > span {
