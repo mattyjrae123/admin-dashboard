@@ -29,6 +29,8 @@ body {
 .section-title {
   font-size: var(--font-size-content-titles);
   font-weight: 700;
+  margin-bottom: -10px;
+  margin-left: 15px;
 }
 
 .profile-link {
