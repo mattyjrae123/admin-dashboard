@@ -171,6 +171,12 @@ h1 {
   margin: 20px 0 20px 20px;
 }
 
+.project-tile {
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  border: 1px solid black;
+}
+
 .project-tile button {
   background: none;
   border: none;
