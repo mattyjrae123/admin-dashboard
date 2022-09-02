@@ -1,4 +1,6 @@
 # admin-dashboard
+[Link to live page](https://mattyjrae123.github.io/admin-dashboard/)
+
 - Project from 'The Odin Project' to build a generic admin dashboard layout focusing on CSS Grid. I'm using this project to gain experience with CSS grid and intend to not use flexbox.
 
 - The page will contain static dummy content and minimal functionality, as the focus is on layout skills with CSS.
