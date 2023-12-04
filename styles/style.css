@@ -24,6 +24,8 @@ body {
 
   width: 100vw;
   height: 100vh;
+
+  overflow: hidden; /* remove scrollbar appearing on chrome */
 }
 
 .main-container-section-title {
